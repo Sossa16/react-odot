@@ -1,3 +1,4 @@
 Rails.application.routes.draw do
-  root to: "list#index"
+	resources :list
+	root to: "list#index"
 end

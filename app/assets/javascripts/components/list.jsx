@@ -1,14 +1,12 @@
 var List = createReactClass({
-	render: function(){
-	return(
-		<div className = "player">
-			<div className = "player-name">
-				<p className="remove-player">x</p>
+	render: function(props){
+		return(
+			<div>
+				<ul>
+					<li>{props.name}</li>
+				</ul>
 			</div>
-			<div className = "player-score">
-				<p className="remove-player">x</p>
-			</div>	
-		</div>
 		);
 	}
 });
+
